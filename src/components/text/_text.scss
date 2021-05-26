@@ -3,6 +3,7 @@
   color: $text;
   font-weight: normal;
   font-size: 1em;
+
   & b {
     font-weight: bold;
   }
@@ -40,4 +41,68 @@
   }
 }
 .cmp-text__paragraph {
+}
+
+
+.te-text{
+  .cmp-text {
+    background-color: #f7f7f7;
+    font-size: 0.75rem;
+    font-family: Avenir,'Avenir W02',Arial,Helvetica,sans-serif;
+
+    padding: 20px;
+  }
+
+  .cmp-text h2{
+
+    color: #e98300;
+    text-transform: uppercase;
+
+  }
+
+  .cmp-text h2 a{
+    color: #0066a1;
+    text-decoration: none;
+    text-transform: none;
+
+  }
+
+}
+
+
+.te-subText{
+  .cmp-text {
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-family: Avenir,'Avenir W02',Arial,Helvetica,sans-serif;
+  //  height: 35px;
+
+    height: 30px;
+    border-top: 3px solid;
+    border-color:  #e98300;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+    //
+
+  //  padding-bottom:5px;
+    margin-top: -35px;
+
+  }
+
+  .cmp-text p{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+  }
+
+  .cmp-text h2 a{
+    color: #0066a1;
+    text-decoration: none;
+    text-transform: none;
+      line-height: 30px;
+
+  }
+
 }

@@ -1,8 +1,14 @@
-.cmp-search {}
-.cmp-search__form {}
+.cmp-search {
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.cmp-search__form {
+
+}
 .cmp-search__field {}
-.cmp-search__icon {}
-.cmp-search__input {}
+.cmp-search__icon { fill: #FFA500;}
+.cmp-search__input {  background-color: #eeeeee;}
 .cmp-search__loading-indicator {}
 .cmp-search__clear {}
 .cmp-search__clear-icon {}

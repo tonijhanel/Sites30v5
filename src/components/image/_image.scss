@@ -1,5 +1,6 @@
 .cmp-image {
-  margin-top: 2.25em;
+  /*margin-top: 2.25em;*/
+  margin-top: 0em;
 }
 .cmp-image__link {
 }
@@ -7,4 +8,16 @@
   display: block;
 }
 .cmp-image__title {
+}
+
+
+.logoImage{
+
+  .cmp-image__image{
+    margin-top: -5px;
+    padding-top: 0px;
+
+  }
+
+
 }
